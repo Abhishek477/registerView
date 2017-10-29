@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
 
         url = "https://192.168.43.249/andApp/admin1.php";
         //url = "https://www.flipkart.com";
+        //Trying first GitHub commit!
         webView = (WebView) this.findViewById(R.id.webViewOne);
         webView.getSettings().setJavaScriptEnabled(true);
         webView.getSettings().setBuiltInZoomControls(true);
